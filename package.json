@@ -1,0 +1,24 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "description": "Conversor de pesos",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisgv94/conversorPesos.git"
+  },
+  "keywords": [
+    "conversor",
+    "javascript",
+    "js"
+  ],
+  "author": "Luis Gomero <lgomero94@gmail.com> (https://twitter.com/luisgv94)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
